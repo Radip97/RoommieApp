@@ -27,8 +27,12 @@ class LoginActivity : AppCompatActivity() {
                 auth.signInWithEmailAndPassword(email, password)
                     .addOnSuccessListener {
                         Toast.makeText(this, "Login successful", Toast.LENGTH_SHORT).show()
+<<<<<<< HEAD
                         // TODO: Create SwipeActivity first before enabling this!
                         // startActivity(Intent(this, SwipeActivity::class.java))
+=======
+                        startActivity(Intent(this, SwipeActivity::class.java))
+>>>>>>> b0db30e (login)
                         finish()
                     }
                     .addOnFailureListener {

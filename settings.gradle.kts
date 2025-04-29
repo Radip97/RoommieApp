@@ -1,5 +1,6 @@
 pluginManagement {
     repositories {
+<<<<<<< HEAD
         google {
             content {
                 includeGroupByRegex("com\\.android.*")
@@ -7,6 +8,9 @@ pluginManagement {
                 includeGroupByRegex("androidx.*")
             }
         }
+=======
+        google()
+>>>>>>> b0db30e (login)
         mavenCentral()
         gradlePluginPortal()
     }
@@ -21,4 +25,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "RoommieApp"
 include(":app")
+<<<<<<< HEAD
  
+=======
+>>>>>>> b0db30e (login)
